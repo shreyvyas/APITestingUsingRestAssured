@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="basics.AddBook">
+      <class name="Advanced.ReqSpec1">
         <methods>
-          <include name="addBook"/>
+          <include name="getAllBooks"/>
         </methods>
-      </class> <!-- basics.AddBook -->
+      </class> <!-- Advanced.ReqSpec1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

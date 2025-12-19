@@ -14,7 +14,7 @@ public class Add_Get_Book {
 	
 	static String bookID;
 	
-	@Test(description="This test will add the book", priority=1)
+	@Test(description="This test method will add the book", priority=1)
 	public void addBook() {
 		
 		RestAssured.baseURI = "http://216.10.245.166";
@@ -35,7 +35,7 @@ public class Add_Get_Book {
 		
 	}
 	
-	@Test(description="This test will get the book", priority=2)
+	@Test(description="This test method will get the book", priority=2)
 	public void getBook() {
 		
 		RestAssured.baseURI = "http://216.10.245.166";
