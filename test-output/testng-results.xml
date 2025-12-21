@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-20T00:54:19 IST" name="Default suite" finished-at="2025-12-20T00:54:22 IST" duration-ms="3578">
+  <suite started-at="2025-12-21T12:12:00 IST" name="Default suite" finished-at="2025-12-21T12:12:02 IST" duration-ms="2644">
     <groups>
     </groups>
-    <test started-at="2025-12-20T00:54:19 IST" name="Default test" finished-at="2025-12-20T00:54:22 IST" duration-ms="3578">
-      <class name="Advanced.ReqSpec1">
-        <test-method signature="getAllBooks()[pri:0, instance:Advanced.ReqSpec1@77602954]" started-at="2025-12-20T00:54:19 IST" name="getAllBooks" finished-at="2025-12-20T00:54:22 IST" duration-ms="3509" status="PASS">
+    <test started-at="2025-12-21T12:12:00 IST" name="Default test" finished-at="2025-12-21T12:12:02 IST" duration-ms="2644">
+      <class name="jsonHandling.DataFromJsonFile">
+        <test-method signature="addBook()[pri:0, instance:jsonHandling.DataFromJsonFile@6b5966e1]" started-at="2025-12-21T12:12:00 IST" name="addBook" description="Test Data from Json File" finished-at="2025-12-21T12:12:02 IST" duration-ms="2563" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getAllBooks -->
-      </class> <!-- Advanced.ReqSpec1 -->
+        </test-method> <!-- addBook -->
+      </class> <!-- jsonHandling.DataFromJsonFile -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

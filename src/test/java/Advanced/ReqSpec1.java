@@ -1,7 +1,7 @@
 package Advanced;
 
 import io.restassured.specification.RequestSpecification;
-import io.restassured.RestAssured;
+//import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
@@ -24,6 +24,8 @@ public class ReqSpec1 {
 		
 		JsonPath js = response.jsonPath();
 		System.out.println(js.getString("status"));
+		
+		System.out.println(js.getString("data[0].employee_name"));
 		
 	}
 
