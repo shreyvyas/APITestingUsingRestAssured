@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Advanced.ReqSpec1">
+      <class name="jsonHandling.CreateUserUsingPOJO">
         <methods>
-          <include name="getAllBooks"/>
+          <include name="newUser"/>
         </methods>
-      </class> <!-- Advanced.ReqSpec1 -->
+      </class> <!-- jsonHandling.CreateUserUsingPOJO -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

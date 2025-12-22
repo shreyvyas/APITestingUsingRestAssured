@@ -1,0 +1,12 @@
+{
+  "menu": {
+    "id": "file",
+    "popup": {
+      "menuitem": [
+        {"value": "New"},
+        {"value": "Open"},
+        {"value": "Save"}
+      ]
+    }
+  }
+}
