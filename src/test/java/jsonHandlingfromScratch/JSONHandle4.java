@@ -1,5 +1,7 @@
 package jsonHandlingfromScratch;
 
+import java.util.List;
+
 import io.restassured.path.json.JsonPath;
 
 public class JSONHandle4 {
@@ -37,7 +39,8 @@ public class JSONHandle4 {
 		
 		System.out.println(js.getString("customer.addresses[1].pincode"));
 		
-		
+		List<Object> getOffice = js.getList("customer.addresses.findAll{it.city=='Pune'}.type");
+		System.out.println(getOffice);
 
 	}
 
